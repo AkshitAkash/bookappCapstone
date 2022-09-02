@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../../components/Header/Header';
-import { Outlet } from 'react-router-dom';
+import { Outlet, Route } from 'react-router-dom';
+
 
 const Home = () => {
   return (
