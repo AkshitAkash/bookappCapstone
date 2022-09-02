@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Alert } from "react-bootstrap";
-import Home from "./Home";
+// import Home from ".Home/Home";
+import Home from "./Home/Home"
+import "./login.css"
 
 function Login() {
   const [emaillog, setEmaillog] = useState(" ");

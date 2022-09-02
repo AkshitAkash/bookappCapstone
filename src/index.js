@@ -17,13 +17,13 @@ root.render(
   <AppProvider>
     <BrowserRouter>
       <Routes>
-      <Route path = "Registration" element = {<Registration />} />
+      <Route path = "" element = {<Registration />} />
       <Route path = "Login" element = {<Login />} />
-        <Route path = "/" element = {<Home />}>
+        <Route path = "Home" element = {<Home />}>
           
           {/* <Route path = "Login" element = {<Login />} /> */}
-          <Route path = "book" element = {<BookList />} />
-          <Route path = "/book/:id" element = {<BookDetails />} />
+          <Route path = "/Home/book" element = {<BookList />} />
+          <Route path = "/Home/book/:id" element = {<BookDetails />} />
         </Route>
       </Routes>
     </BrowserRouter>

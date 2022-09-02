@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Form, Alert } from "react-bootstrap";
 import Login from "./Login";
+import "./login.css"
 
 function Registration() {
   const [name, setName] = useState("");
