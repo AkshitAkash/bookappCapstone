@@ -8,7 +8,7 @@ function Registration() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [phone, setPhone] = useState("");
-  const [profession, setProfession] = useState("");
+  //const [profession, setProfession] = useState("");
 
   const [flag, setFlag] = useState(false);
   const [login, setLogin] = useState(true);
